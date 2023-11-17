@@ -1,6 +1,8 @@
 import { Skill } from '@/types'
 
 export const SkillLane = ({ rootSkill }: { rootSkill: Skill }) => {
+  // TODO: should the data come pre-flattened? array of arrays instead of recursive
+  // yes.
   const flattened = flattenSkills(rootSkill)
   return (
     <div className="flex justify-start">
