@@ -25,6 +25,84 @@
                 "name": "Journal 2",
                 "description": "Journal daily"
               }
+            },
+            {
+              "name": "Deep Breathing",
+              "active": true,
+              "description": "Practice deep breathing exercises",
+              "next": null
+            }
+          ]
+        },
+        {
+          "name": "Physical",
+          "skills": [
+            {
+              "name": "Walking",
+              "active": true,
+              "description": "Take a 30-minute walk daily",
+              "next": {
+                "active": false,
+                "name": "Jogging",
+                "description": "Start jogging for cardiovascular health"
+              }
+            },
+            {
+              "name": "Yoga",
+              "active": false,
+              "description": "Practice yoga for flexibility and strength",
+              "next": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Learning",
+      "subcategories": [
+        {
+          "name": "Programming",
+          "skills": [
+            {
+              "name": "JavaScript Basics",
+              "active": true,
+              "description": "Learn the basics of JavaScript",
+              "next": {
+                "active": false,
+                "name": "React Fundamentals",
+                "description": "Dive into React.js fundamentals"
+              }
+            },
+            {
+              "name": "TypeScript",
+              "active": false,
+              "description": "Explore the features of TypeScript",
+              "next": {
+                "active": false,
+                "name": "Node.js",
+                "description": "Learn server-side development with Node.js"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Language",
+          "skills": [
+            {
+              "name": "French",
+              "active": true,
+              "description": "Begin learning the French language",
+              "next": {
+                "active": false,
+                "name": "Advanced French",
+                "description": "Deepen your understanding of French grammar and vocabulary"
+              }
+            },
+            {
+              "name": "Mandarin",
+              "active": false,
+              "description": "Start learning Mandarin Chinese",
+              "next": null
             }
           ]
         }
