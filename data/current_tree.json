@@ -1,0 +1,34 @@
+{
+  "categories": [
+    {
+      "name": "Health",
+      "subcategories": [
+        {
+          "name": "Mind",
+          "skills": [
+            {
+              "name": "Meditation 1",
+              "active": true,
+              "description": "Meditate 1 min daily",
+              "next": {
+                "active": false,
+                "name": "Meditation 2",
+                "description": "Meditate 5 min daily"
+              }
+            },
+            {
+              "name": "Journal 1",
+              "active": false,
+              "description": "Journal on weekdays",
+              "next": {
+                "active": false,
+                "name": "Journal 2",
+                "description": "Journal daily"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
