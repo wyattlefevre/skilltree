@@ -21,7 +21,7 @@ const flattenSkills = (rootSkill: Skill): Skill[] => {
   let currentSkill: Skill | null = rootSkill
   while (currentSkill != null) {
     if (flattened.includes(currentSkill)) {
-      console.error('circular skill lane detected')
+      console.error('circular skill lane detected', currentSkill)
       break
     }
     flattened.push(currentSkill)

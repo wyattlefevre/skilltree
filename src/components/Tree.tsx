@@ -1,5 +1,5 @@
 import { SkillTree } from '@/types'
-import { SkillLane } from './SkillLane'
+import { SubcategoryBlock } from './SubcategoryBlock'
 
 type TreeProps = {
   tree: SkillTree
@@ -13,12 +13,7 @@ export const Tree = ({ tree }: TreeProps) => {
         <div key={c.name}>
           <p>{c.name}</p>
           {c.subcategories.map((sc) => (
-            <div key={sc.name}>
-              <p>{sc.name}</p>
-              {sc.skills.map((skill) => (
-                <SkillLane key={`${skill.name}-${skill.description}`} rootSkill={skill} />
-              ))}
-            </div>
+            <SubcategoryBlock key={sc.name} subcategory={sc} />
           ))}
         </div>
       ))}
