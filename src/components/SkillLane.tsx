@@ -5,13 +5,15 @@ export const SkillLane = ({ rootSkill }: { rootSkill: Skill }) => {
   // yes.
   const flattened = flattenSkills(rootSkill)
   return (
-    <div className="flex justify-start">
+    <div className="flex flex-col-reverse justify-start gap-1">
       {flattened.map((skill) => (
-        <div key={`${skill.name}-${skill.description}`} className="border border-black p-2">
+        <div
+          key={`${skill.name}-${skill.description}`}
+          className="h-24 w-32 rounded-md border border-black p-2"
+        >
           <p>
             <b>{skill.name}</b>
           </p>
-          <p>{skill.description}</p>
         </div>
       ))}
     </div>
