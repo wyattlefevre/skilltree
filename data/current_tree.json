@@ -13,7 +13,8 @@
               "next": {
                 "active": false,
                 "name": "Meditation 2",
-                "description": "Meditate 5 min daily"
+                "description": "Meditate 5 min daily",
+                "next": null
               }
             },
             {
@@ -23,7 +24,8 @@
               "next": {
                 "active": false,
                 "name": "Journal 2",
-                "description": "Journal daily"
+                "description": "Journal daily",
+                "next": null
               }
             },
             {
@@ -44,7 +46,8 @@
               "next": {
                 "active": false,
                 "name": "Jogging",
-                "description": "Start jogging for cardiovascular health"
+                "description": "Start jogging for cardiovascular health",
+                "next": null
               }
             },
             {
@@ -70,7 +73,8 @@
               "next": {
                 "active": false,
                 "name": "React Fundamentals",
-                "description": "Dive into React.js fundamentals"
+                "description": "Dive into React.js fundamentals",
+                "next": null
               }
             },
             {
@@ -80,7 +84,8 @@
               "next": {
                 "active": false,
                 "name": "Node.js",
-                "description": "Learn server-side development with Node.js"
+                "description": "Learn server-side development with Node.js",
+                "next": null
               }
             }
           ]
@@ -95,7 +100,8 @@
               "next": {
                 "active": false,
                 "name": "Advanced French",
-                "description": "Deepen your understanding of French grammar and vocabulary"
+                "description": "Deepen your understanding of French grammar and vocabulary",
+                "next": null
               }
             },
             {
